@@ -1,3 +1,5 @@
+package test;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
@@ -60,6 +62,8 @@ public class Level3CodingExam {
 		st.add("Superb");
 		st.add("Happy");
 	
-		assertEquals(st, new HashMapCalculator().commonKeyValues(lst, hm));
-	}
+	assertEquals(st, new HashMapCalculator().commonKeyValues(lst, hm));
+	
+	  }
+	 
 }
